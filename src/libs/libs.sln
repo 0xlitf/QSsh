@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Botan", "C:/CPPProject/QSsh-master/src/libs/3rdparty/botan\Botan.vcxproj", "{9CA39E02-3A63-3FA5-8F99-BC7DB13E3859}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "QSsh", "C:/CPPProject/QSsh-master/src/libs/ssh\QSsh.vcxproj", "{7FCFA13D-27B3-319A-A78B-322E93760446}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9CA39E02-3A63-3FA5-8F99-BC7DB13E3859} = {9CA39E02-3A63-3FA5-8F99-BC7DB13E3859}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9CA39E02-3A63-3FA5-8F99-BC7DB13E3859}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9CA39E02-3A63-3FA5-8F99-BC7DB13E3859}.Debug|Win32.Build.0 = Debug|Win32
+		{9CA39E02-3A63-3FA5-8F99-BC7DB13E3859}.Release|Win32.ActiveCfg = Release|Win32
+		{9CA39E02-3A63-3FA5-8F99-BC7DB13E3859}.Release|Win32.Build.0 = Release|Win32
+		{7FCFA13D-27B3-319A-A78B-322E93760446}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7FCFA13D-27B3-319A-A78B-322E93760446}.Debug|Win32.Build.0 = Debug|Win32
+		{7FCFA13D-27B3-319A-A78B-322E93760446}.Release|Win32.ActiveCfg = Release|Win32
+		{7FCFA13D-27B3-319A-A78B-322E93760446}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
